@@ -17,6 +17,8 @@ namespace Jogo_Da_Velha
             InitializeComponent();
         }
 
+
+        // Botões da grid
         private async void Button_Clicked(object sender, EventArgs e)
         {
             Button btn = (Button)sender;

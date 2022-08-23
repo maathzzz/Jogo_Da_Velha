@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jogo_Da_Velha.MainPage"
+             Title="JOGO DA VELHA">
+
+    <Grid ColumnDefinitions="*, *, *"
+              ColumnSpacing="2"              
+              RowSpacing="2">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+
+        <Button x:Name="btn00" Text=" " 
+                Grid.Row="0"
+                Grid.Column="0" Clicked="Button_Clicked"/>
+
+        <Button x:Name="btn01" Text=" " 
+                Grid.Row="0"
+                Grid.Column="1" Clicked="Button_Clicked"/>
+
+        <Button x:Name="btn02" Text=" " 
+                Grid.Row="0"
+                Grid.Column="2" Clicked="Button_Clicked"/>
+
+        <Button x:Name="btn03" Text=" " 
+                Grid.Row="1"
+                Grid.Column="0" Clicked="Button_Clicked"/>
+
+        <Button x:Name="btn04" Text=" " 
+                Grid.Row="1"
+                Grid.Column="1" Clicked="Button_Clicked"/>
+
+        <Button x:Name="btn05" Text=" " 
+                Grid.Row="1"
+                Grid.Column="2" Clicked="Button_Clicked"/>
+
+        <Button x:Name="btn06" Text=" " 
+                Grid.Row="2"
+                Grid.Column="0" Clicked="Button_Clicked"/>
+
+        <Button x:Name="btn07" Text=" " 
+                Grid.Row="2"
+                Grid.Column="1" Clicked="Button_Clicked"/>
+
+        <Button x:Name="btn08" Text=" " 
+                Grid.Row="2"
+                Grid.Column="2" Clicked="Button_Clicked"/>
+
+        <Button x:Name="Reiniciar" Text=" Reiniciar"
+                Grid.Row="3"
+                Grid.Column="1"
+                Style="{ StaticResource Btn_Jogo }"
+                Clicked="Reiniciar_Clicked"/>
+        
+        
+    </Grid>
+</ContentPage>
